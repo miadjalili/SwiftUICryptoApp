@@ -24,6 +24,7 @@
 		94C5E7152C2A5CF9000A43EA /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7142C2A5CF9000A43EA /* Double.swift */; };
 		94C5E7172C2B4218000A43EA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7162C2B4218000A43EA /* HomeViewModel.swift */; };
 		94C5E7192C2B8EB7000A43EA /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7182C2B8EB7000A43EA /* CoinDataService.swift */; };
+		94C5E71C2C2BB7BD000A43EA /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E71B2C2BB7BD000A43EA /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		94C5E7142C2A5CF9000A43EA /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		94C5E7162C2B4218000A43EA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		94C5E7182C2B8EB7000A43EA /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		94C5E71B2C2BB7BD000A43EA /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		94C5E6FA2C291783000A43EA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				94C5E71B2C2BB7BD000A43EA /* NetworkingManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				94C5E7062C2918BC000A43EA /* File.swift in Sources */,
 				94C5E6CF2C29157E000A43EA /* ContentView.swift in Sources */,
 				94C5E6CD2C29157E000A43EA /* SwiftUICryptoAppApp.swift in Sources */,
+				94C5E71C2C2BB7BD000A43EA /* NetworkingManager.swift in Sources */,
 				94C5E7042C291876000A43EA /* Color.swift in Sources */,
 				94C5E7132C291E21000A43EA /* PreviewProvider.swift in Sources */,
 				94C5E7152C2A5CF9000A43EA /* Double.swift in Sources */,
