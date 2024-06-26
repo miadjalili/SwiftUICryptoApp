@@ -23,6 +23,7 @@
 		94C5E7132C291E21000A43EA /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7122C291E21000A43EA /* PreviewProvider.swift */; };
 		94C5E7152C2A5CF9000A43EA /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7142C2A5CF9000A43EA /* Double.swift */; };
 		94C5E7172C2B4218000A43EA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7162C2B4218000A43EA /* HomeViewModel.swift */; };
+		94C5E7192C2B8EB7000A43EA /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E7182C2B8EB7000A43EA /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		94C5E7122C291E21000A43EA /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		94C5E7142C2A5CF9000A43EA /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		94C5E7162C2B4218000A43EA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		94C5E7182C2B8EB7000A43EA /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		94C5E6F92C291778000A43EA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				94C5E7182C2B8EB7000A43EA /* CoinDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C5E7192C2B8EB7000A43EA /* CoinDataService.swift in Sources */,
 				94C5E7112C291DC0000A43EA /* CoinRowView.swift in Sources */,
 				94C5E7172C2B4218000A43EA /* HomeViewModel.swift in Sources */,
 				94C5E7002C29182B000A43EA /* CircleButtonView.swift in Sources */,
