@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  CoinModel.swift
 //  SwiftUICryptoApp
 //
 //  Created by Miad Jalili on 2024-06-23.
