@@ -10,11 +10,15 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject private var vm: HomeViewModel
     @State private var showPortfolio: Bool = false // animate right
+    @State private var showPortfolioView : Bool = false
     
     var body: some View {
         ZStack {
             Color.theme.background
                 .ignoresSafeArea()
+                .sheet(isPresented: $showPortfolioView) {
+                    PortfolioView()
+                }
             
             VStack {
                 homeHeader
@@ -56,9 +60,9 @@ extension HomeView {
                 .animation(.none)
                 .onTapGesture {
                     if showPortfolio {
-                        //   showPortfolioView.toggle()
+                           showPortfolioView.toggle()
                     } else {
-                        // showSettingsView.toggle()
+                           //showSettingsView.toggle()
                     }
                 }
                 .background(

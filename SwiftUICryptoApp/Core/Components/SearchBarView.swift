@@ -48,9 +48,9 @@ struct SearchBarView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
  
     SearchBarView(searchText: .constant(""))
-        .previewLayout(.sizeThatFits)
+        
     
 }

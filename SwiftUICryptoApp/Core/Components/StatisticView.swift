@@ -35,18 +35,17 @@ struct StatisticView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     
-    Group {
-        StatisticView(stat: DeveloperPreview.instance.stat1)
-            .previewLayout(.sizeThatFits)
-            .preferredColorScheme(.dark)
-        StatisticView(stat: DeveloperPreview.instance.stat2)
-            .previewLayout(.sizeThatFits)
+    StatisticView(stat: DeveloperPreview.instance.stat1)
+        .preferredColorScheme(.dark)
+}
+
+#Preview(traits: .sizeThatFitsLayout) {
+    StatisticView(stat: DeveloperPreview.instance.stat2)
+}
+#Preview(traits: .sizeThatFitsLayout) {
         StatisticView(stat: DeveloperPreview.instance.stat3)
-            .previewLayout(.sizeThatFits)
+       
             .preferredColorScheme(.dark)
-    }
-    
-    
 }
