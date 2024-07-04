@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		946993D42C334C7C00B0DF2F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946993D32C334C7C00B0DF2F /* HapticManager.swift */; };
+		94BC1A462C3634570049914B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC1A452C3634570049914B /* DetailView.swift */; };
 		94C5E6CD2C29157E000A43EA /* SwiftUICryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E6CC2C29157E000A43EA /* SwiftUICryptoAppApp.swift */; };
 		94C5E6CF2C29157E000A43EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E6CE2C29157E000A43EA /* ContentView.swift */; };
 		94C5E6D12C29157F000A43EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C5E6D02C29157F000A43EA /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		946993D32C334C7C00B0DF2F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		94BC1A452C3634570049914B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		94C5E6C92C29157E000A43EA /* SwiftUICryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C5E6CC2C29157E000A43EA /* SwiftUICryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoAppApp.swift; sourceTree = "<group>"; };
 		94C5E6CE2C29157E000A43EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94BC1A422C3633D40049914B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				94BC1A442C36341E0049914B /* ViewsModels */,
+				94BC1A432C3634110049914B /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		94BC1A432C3634110049914B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94BC1A452C3634570049914B /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94BC1A442C36341E0049914B /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsModels;
+			sourceTree = "<group>";
+		};
 		94C5E6C02C29157E000A43EA = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +265,7 @@
 				94C5E70E2C291D2F000A43EA /* Launch */,
 				94C5E6FD2C2917FD000A43EA /* Components */,
 				94C5E7072C291BCC000A43EA /* Home */,
+				94BC1A422C3633D40049914B /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -463,6 +490,7 @@
 				94C5E7062C2918BC000A43EA /* CoinModel.swift in Sources */,
 				94C5E6CF2C29157E000A43EA /* ContentView.swift in Sources */,
 				94C5E7272C2CDFDF000A43EA /* SearchBarView.swift in Sources */,
+				94BC1A462C3634570049914B /* DetailView.swift in Sources */,
 				946993D42C334C7C00B0DF2F /* HapticManager.swift in Sources */,
 				94C5E6CD2C29157E000A43EA /* SwiftUICryptoAppApp.swift in Sources */,
 				94C5E71C2C2BB7BD000A43EA /* NetworkingManager.swift in Sources */,
